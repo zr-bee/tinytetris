@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/lr/tinytetris",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

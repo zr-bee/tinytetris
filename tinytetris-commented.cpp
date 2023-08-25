@@ -51,8 +51,8 @@ void set_piece(int x, int y, int r, int v) {
 
 // move a piece from old (p*) coords to new
 int update_piece() {
-  set_piece(px, py, pr, 0);
-  set_piece(px = x, py = y, pr = r, p + 1);
+  set_piece(px, py, pr, 0);   
+  set_piece(px = x, py = y, pr = r, p + 1); 
 }
 
 // remove line(s) from the board if they're full
@@ -141,7 +141,7 @@ void runloop() {
   }
 }
 
-// init curses and start runloop
+// init curses and start runloop  
 int main() {
   srand(time(0));
   initscr();

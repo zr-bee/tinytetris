@@ -2,5 +2,5 @@ LDFLAGS=-lcurses
 
 all: tinytetris
 
-clean:
-	rm -f tinytetris tinytetris-commented
+tinytetris: tinytetris.o
+	g++ -o tinytetris tinytetris.o $(LDFLAGS)
